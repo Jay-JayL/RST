@@ -15,4 +15,4 @@ function area () {
   number2 = Math.PI * (r ** 2) * (h / 3)
   document.getElementById('paragraph').innerHTML = number
   document.getElementById('paragraph2').innerHTML = number2
-  }
+}
