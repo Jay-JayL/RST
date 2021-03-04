@@ -11,12 +11,9 @@ function area () {
 
   r = parseInt(r)
   h = parseInt(h)
-
-  while (r === parseInt(r) , h === parseInt(h)) {
-    function math() {
-    number = Math.PI(r)(r + Math.sqrt(h ** 2 + r ** 2))
-    number2 = Math.PI(r ** 2)(h / 3)
+  
+    number = Math.PI * r * (r + Math.sqrt(h ** 2 + r ** 2))
+    number2 = Math.PI * (r ** 2) * (h / 3)
     document.getElementById('paragraph').innerHTML = number
      document.getElementById('paragraph2').innerHTML = number2
-    }} 
  }
